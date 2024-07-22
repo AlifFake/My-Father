@@ -1,0 +1,95 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background: url("background.jpg") no-repeat center center fixed;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  background-color: rgba(110, 197, 29, 0.9);
+  padding: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+header {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #ff6f61;
+  color: #fff;
+  border-radius: 10px 10px 0 0;
+}
+
+header h1 {
+  font-size: 3em;
+  margin: 0;
+  font-weight: 600;
+}
+
+header p {
+  font-size: 1.5em;
+  margin: 10px 0 0;
+}
+
+.intro {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #fce4ec;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.photo {
+  width: 30%;
+  margin: 10px 0;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.photo img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.photo p {
+  margin-top: 10px;
+  color: #666;
+}
+
+.photo:hover {
+  transform: scale(1.05);
+}
+
+.message {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #e1f5fe;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px 0;
+  color: #fff;
+  background-color: #ff6f61;
+  border-radius: 0 0 10px 10px;
+}
+
+audio {
+  display: block;
+  margin: 20px auto;
+}
